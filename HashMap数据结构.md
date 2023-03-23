@@ -41,7 +41,17 @@ HashMap会这样做:B.next = A,Entry[0] = B；如果又进来C,index也等于0,�
   
   ![image](https://user-images.githubusercontent.com/113034973/227101328-c39988f8-f9b8-44d7-8ce1-5a29b4b22fc9.png)
   
- 二次哈希：右移16位
+ 二次哈希：右移16位 
+  
+  ![image](https://user-images.githubusercontent.com/113034973/227282562-b0f38e06-9873-45bf-97f7-8b3386170e24.png)
+ 
+ ### 并发丢失数据
+  
+ ### 并发扩容死链 
+  
+ ### 设计hashCode()
+ ![image](https://user-images.githubusercontent.com/113034973/227290421-5914982c-ef4b-4ec9-b0d8-df0e920d7ff5.png)
+
 
   
   
